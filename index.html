@@ -313,7 +313,7 @@
             </div>
 
             <div class="bg-white text-gray-800 rounded-xl shadow-2xl p-8 md:p-10">
-                <form onsubmit="event.preventDefault(); alert('Thank you! This is a demo form. In a real deployment, this would connect to your email service.');">
+                <form name="contact" method="POST" data-netlify="true">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                         <div>
                             <label class="block text-sm font-bold text-gray-700 mb-2">Name</label>
